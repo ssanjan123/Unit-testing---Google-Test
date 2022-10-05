@@ -1,0 +1,10 @@
+^D:\CMPT 473\GOOGLETEST-TEMPLATE\BUILD\CMAKEFILES\CF067B853A13F5035CDB15A814D92FF2\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/CMPT 473/googletest-template" "-BD:/CMPT 473/googletest-template/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/CMPT 473/googletest-template/build/google-test-exercise.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

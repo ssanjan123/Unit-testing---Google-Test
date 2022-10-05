@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\CMPT 473\googletest-template\test\build\CMakeFiles\44d139d9182d852b4a1d238f086317cb\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{5D3BBC29-F6A8-33B5-BC7C-CD2581ED7D1D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

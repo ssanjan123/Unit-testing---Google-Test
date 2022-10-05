@@ -1,0 +1,22 @@
+# CMake generated Testfile for 
+# Source directory: D:/CMPT 473/googletest-template/test
+# Build directory: D:/CMPT 473/googletest-template/test/build
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+if(CTEST_CONFIGURATION_TYPE MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+  add_test(AllTests "D:/CMPT 473/googletest-template/test/build/Debug/runAllTests.exe")
+  set_tests_properties(AllTests PROPERTIES  _BACKTRACE_TRIPLES "D:/CMPT 473/googletest-template/test/CMakeLists.txt;15;add_test;D:/CMPT 473/googletest-template/test/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+  add_test(AllTests "D:/CMPT 473/googletest-template/test/build/Release/runAllTests.exe")
+  set_tests_properties(AllTests PROPERTIES  _BACKTRACE_TRIPLES "D:/CMPT 473/googletest-template/test/CMakeLists.txt;15;add_test;D:/CMPT 473/googletest-template/test/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+  add_test(AllTests "D:/CMPT 473/googletest-template/test/build/MinSizeRel/runAllTests.exe")
+  set_tests_properties(AllTests PROPERTIES  _BACKTRACE_TRIPLES "D:/CMPT 473/googletest-template/test/CMakeLists.txt;15;add_test;D:/CMPT 473/googletest-template/test/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+  add_test(AllTests "D:/CMPT 473/googletest-template/test/build/RelWithDebInfo/runAllTests.exe")
+  set_tests_properties(AllTests PROPERTIES  _BACKTRACE_TRIPLES "D:/CMPT 473/googletest-template/test/CMakeLists.txt;15;add_test;D:/CMPT 473/googletest-template/test/CMakeLists.txt;0;")
+else()
+  add_test(AllTests NOT_AVAILABLE)
+endif()
+subdirs("gtest")
