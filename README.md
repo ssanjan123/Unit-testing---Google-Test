@@ -1,8 +1,7 @@
 # Unit Testing with Google Test and GMock
 
-This project demonstrates how to use Google Test and GMock to perform unit testing of mathematical and geometric functionalities implemented in C++. The goal is to test the correctness of the implemented functionalities and ensure they work as expected.
+<img src="https://user-images.githubusercontent.com/84153519/213343493-141648ee-dd5e-45e4-ae7f-b54108c87424.png" width="500" height="300">
 
-![frederick_Google_logo_with_unit_testing_components_a8fc6cf4-4fac-4c45-a497-376ba03b7937](https://user-images.githubusercontent.com/84153519/213343493-141648ee-dd5e-45e4-ae7f-b54108c87424.png)
 
 ## Getting Started
 
