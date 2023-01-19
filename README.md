@@ -15,8 +15,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Installing
 
 1. Clone the repository
-git clone https://github.com/yourusername/unit-testing-google-test-gmock.git
-
+git clone https://github.com/ssanjan123/Unit-testing---Google-Test
 
 
 2. Install Google Test and GMock libraries
