@@ -1,6 +1,6 @@
 # Unit Testing with Google Test and GMock
 
-<img src="https://user-images.githubusercontent.com/84153519/213343493-141648ee-dd5e-45e4-ae7f-b54108c87424.png" width="500" height="300">
+<img src="https://user-images.githubusercontent.com/84153519/213343493-141648ee-dd5e-45e4-ae7f-b54108c87424.png" width="500" height="500">
 
 
 ## Getting Started
