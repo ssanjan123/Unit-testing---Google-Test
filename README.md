@@ -83,3 +83,7 @@ g++ -std=c++11 -pthread -L/usr/lib -lgtest -lgtest_main -lgmock -lgmock_main tes
 * [C++](https://en.wikipedia.org/wiki/C%2B%2B) - The programming language used
 * [Google Test](https://github.com/google/googletest) - The testing framework used
 * [GMock](https://github.com/google/googletest/tree/master/googlemock) - The library used for creating test doubles (e.g. mocks, stubs)
+
+## Conclusion
+This project is about using the Google Test framework to test geometrical functions. The goal is to create unit tests for these functions using stubs and mocks to isolate and control the behavior of dependencies. The project includes writing test cases for various geometrical functions such as calculating the area of a triangle, the distance between two points, and the slope of a line. The use of stubs and mocks allows for testing the functions in isolation, making it easier to identify and fix bugs. Overall, the project aims to improve the reliability and maintainability of the geometrical functions by thoroughly testing them using the Google Test framework and stubs and mocks.
+
