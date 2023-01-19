@@ -17,7 +17,7 @@ These instructions will get you a copy of the project up and running on your loc
 1. Clone the repository
 git clone https://github.com/yourusername/unit-testing-google-test-gmock.git
 
-Copy code
+
 
 2. Install Google Test and GMock libraries
     - On Ubuntu:
@@ -65,20 +65,19 @@ Copy code
 1. Navigate to the project directory
 cd unit-testing-google-test-gmock
 
-Copy code
+
 
 2. Compile the test files
 g++ -std=c++11 -pthread -I/usr/include/gmock -I/usr/include/gtest -c test_files.cpp
 
-Copy code
+
 3. Link the test files 
 g++ -std=c++11 -pthread -L/usr/lib -lgtest -lgtest_main -lgmock -lgmock_main test_files.o -o test_files
 
-Copy code
 4. Run the test files 
 ./test_files
 
-Copy code
+
 
 ## Built With
 
