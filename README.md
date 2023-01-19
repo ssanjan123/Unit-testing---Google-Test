@@ -3,7 +3,7 @@
 <img src="https://user-images.githubusercontent.com/84153519/213343493-141648ee-dd5e-45e4-ae7f-b54108c87424.png" width="500" height="500">
 
 ## Description
-This project is about using the Google Test framework to test geometrical functions. The goal is to create unit tests for these functions using stubs and mocks to isolate and control the behavior of dependencies. The project includes writing test cases for various geometrical functions such as calculating the area of a triangle, the distance between two points, and the slope of a line. The use of stubs and mocks allows for testing the functions in isolation, making it easier to identify and fix bugs. Overall, the project aims to improve the reliability and maintainability of the geometrical functions by thoroughly testing them using the Google Test framework and stubs and mocks.
+This project is about using the Google Test framework to test geometrical functions. The goal is to create unit tests for these functions using stubs and mocks to isolate and control the behavior of dependencies. The project includes writing test cases for various geometrical functions such as calculating the area, perimeter, etc. of a parallalogram, the distance between two points, and the slope of a line. The use of stubs and mocks allows for testing the functions in isolation, making it easier to identify and fix bugs. Overall, the project aims to improve the reliability and maintainability of the geometrical functions by thoroughly testing them using the Google Test framework and stubs and mocks.
 
 ## Getting Started
 
