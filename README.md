@@ -1,4 +1,4 @@
-# Unit Testing with Google Test and GMock
+# Unit Testing with Google Test framework
 
 <img src="https://user-images.githubusercontent.com/84153519/213343493-141648ee-dd5e-45e4-ae7f-b54108c87424.png" width="500" height="500">
 
